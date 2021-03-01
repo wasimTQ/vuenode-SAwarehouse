@@ -51,16 +51,14 @@
       </div>
     </div>
 
-      <router-link
-        :to="{
-          path: '/details',
-          query: { id: warehouse.id },
-        }"
-      >
-    <button ref="showDetailBtn" @click="showDetail">
-        Show Detail
-    </button>
-      </router-link>
+    <router-link
+      :to="{
+        path: '/details',
+        query: { id: warehouse.id },
+      }"
+    >
+      <button ref="showDetailBtn" @click="showDetail">Show Detail</button>
+    </router-link>
   </div>
 </template>
 

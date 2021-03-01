@@ -8,7 +8,7 @@
       v-if="showEditForm"
       @click="showEditForm = false"
     ></div>
-    <div class="absolute w-9/12 z-50 p-2" v-if="showEditForm">
+    <div class="absolute w-10/12 z-50 p-2" v-if="showEditForm">
       <edit-form @hide-form="showEditForm = false" :form="warehouseDetail" />
     </div>
     <div v-if="isFetching">Fetching warehouse data .........</div>
